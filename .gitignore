@@ -1,0 +1,28 @@
+# Local machine files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Private configuration
+.env
+.env.*
+!.env.example
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+
+# Large local research assets
+checkpoints/
+datasets/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Local exports and archives
+*.zip
